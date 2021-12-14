@@ -24,17 +24,63 @@
             gtag('js', new Date());
             gtag('config', 'UA-XXXX-n');
         </script>
+        <style>
+            html {
+                background: lightgrey;
+            }
+            body > header {
+                padding-left: 1em;
+                background: white;
+                border-bottom: 1px inset;
+            }
+            body > header figure{
+                display: inline-flex;
+                margin: 0 auto;
+            }
+            body > header h1 {
+                display: inline-flex;
+                vertical-align: top;
+                margin: 0 auto;
+                margin-top: 0.25em;
+            }
+            body > main section {
+                background: lightyellow;
+            }
+            section {
+                padding: 2em 5em;
+                border: 1px solid red;
+            }
+            section h2 {
+                color: red;
+            }
+            article {
+                padding: 1em;
+                border: 1px solid blue;
+                margin-bottom: 1em;
+            }
+            article h2,
+            article h3,
+            article h4,
+            article h5,
+            article h6 {
+                color: blue;
+            }
+            body > main aside {
+                margin-top: 1em;
+                padding: 2em 5em;
+                background: azure;
+                border: 1px solid;
+            }
+        </style>
         <!-- Título de la pestaña -->
         <title> IF-CD0110 Curso Web </title>
     </head>
-    <div> 
-    </div>
     <body>
         <!-- Cuerpo visible del documento web -->
         <header>
             <a href="index.html" title= "Página principal">
                 <figure>
-                    <img src="https://www.memecreator.org/static/images/memes/5045605.jpg" width="300px"/>
+                    <img src="https://www.memecreator.org/static/images/memes/5045605.jpg" width="300"/>
                 </figure>
                 <h1>Ejercicio</h1>
             </a>
@@ -47,22 +93,22 @@
                 <li>
                     <a href="index.html">Inicio</a>
                 </li>
-                <li> Categorías
-                    <ul> 
-                        <li>
-                            <a href="/categories/html5.html">HTML5</a>
-                        </li>
-                        <li>
-                            <a href="categories/css.html">CSS</a>
-                        </li>
-                        <li>
-                            <a href="categories/js.html">JavaScript</a>
-                        </li>
-                        <li> 
-                            <a href="categories/loremipsum.html">Lorem Ipsum</a>
-                        </li>                                                
-                    </ul>        
-                </li>
+                    <li>Categorías
+                        <ul> 
+                            <li>
+                                <a href="/categories/html5.html">HTML5</a>
+                            </li>
+                            <li>
+                                <a href="categories/css.html">CSS</a>
+                            </li>
+                            <li>
+                                <a href="categories/js.html">JavaScript</a>
+                            </li>
+                            <li> 
+                                <a href="categories/loremipsum.html">Lorem Ipsum</a>
+                            </li>                                                
+                        </ul>        
+                    </li>
                 <li>
                     <a href="pages/nosotros.html">Nosotros</a>
                 </li>
@@ -122,10 +168,10 @@
                     <h3>Definiciones</h3>
                     <p>
                         <dl>
-                            <dt> HTML </dt> <dd> Lenguaje de marcado web </dd>
-                            <dt> CSS </dt><dd> Hojas de estilo en cascada </dd>
-                            <dt> JS </dt><dd> Lenguaje de Script. Gracias Netscape </dd>
-                            <dt> CMS </dt><dd>Content Management System </dd>
+                            <dt>HTML</dt> <dd> Lenguaje de marcado web </dd>
+                            <dt>CSS</dt><dd> Hojas de estilo en cascada </dd>
+                            <dt>JS</dt><dd> Lenguaje de Script. Gracias Netscape </dd>
+                            <dt>CMS</dt><dd>Content Management System </dd>
                         </dl>
                     </p>
                     <p>Párrafo 2</p>
