@@ -1,107 +1,107 @@
 <!DOCTYPE html>
-<html lang=es dir=LTR>
-     <head>
-        <!-- Juego de caracteres de casi todos los idiomas humanos (incluidos ñ, tildes ...) -->
+<html>
+    <head>
         <meta charset=utf-8 />
-        <!-- Escala inicial y renderizado _responsive_ por el ancho del dispositivo -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!-- Compatibilidad con Microsoft Explorer -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <!-- Indéxame y sígueme -->
-        <meta name="robots" content="Index, Follow" />
-        <!-- Breve descripción del sitio que se verá en los resultados de búsqueda -->
-        <meta name="description" content="web del Curso IF-CD0110 de Confección y Publicación de paginas Web. Aprende html5, CSS y JavaScript con nosotros. Somos los mejores." />
-        <!-- Ruta a las hojas de estilos -->
-        <link rel="stylesheet" type="text/css" href="../css/basicos.css" />
-        <!-- Ruta al favicon -->
-        <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/vnd.microsoft.icon" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXX-n"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-XXXX-n');
-        </script>
-        <!-- Título de la pestaña -->
-        <title>CSS</title>
+        <meta name="description" content="apuntes de clase sobre los elementos html5 semantico"/>
+        <link rel="stylesheet" type="text/css" href="../css/basicos.css">
+        <title> elementos </title>
     </head>
-
-
     <body>
-        <!-- Cuerpo visible del documento web -->
         <header>
-            <a href="../index.html" title= "Página principal">
+            <a href="../index.html" title="Inicio">
                 <figure>
-                    <img src="https://5.imimg.com/data5/PP/SL/GLADMIN-19342265/html-and-css-500x500.jpg" width= "100px"/>
+                    <img src="../img/60ae5c9db9f42.jpeg" alt="Logo web gato meme"/>
                 </figure>
-                <h1>CSS</h1>
+                <h1>contenido sobre HTML5 en la pagina de CSS no se por qué</h1>
             </a>
-            <p class="pechado">Slogan del sitio web</p>
         </header>
-        <!-- Menú de navegación principal del sitio -->
         <nav>
-            <h2 class="pechado">Menú principal</h2>
+            <h2>Menú</h2>
             <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
                 <li> Categorías
-                    <ul> 
+                    <ul>
+                       <li>
+                           <a href="css.html"></a>
+                       </li>
                         <li>
-                            <a href="html5.html">HTML5</a>
-                        </li>
+                           <a href="html5.html"></a>
+                       </li>
                         <li>
-                            <a href="css.html">CSS</a>
-                        </li>
+                           <a href="js.html"></a>
+                       </li>
                         <li>
-                            <a href="js.html">JavaScript</a>
-                        </li>
-                        <li> 
-                            <a href="loremipsum.html">Lorem Ipsum</a>
-                        </li>                                                
-                    </ul>        
-                    
+                           <a href="loremipsum.html"></a>
+                       </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="pages/nosotros.html">Nosotros</a>
+                    <a href="../pages/nosotros">Nosotros</a>
                 </li>
                 <li>
-                    <a href="pages/contacto.html">Contacto</a>
+                    <a href="../pages/contacto">Contacto</a>
                 </li>
             </ul>
         </nav>
-        <!-- Contenido principal de la página web -->
         <main>
             <section>
-                <h2>CSS</h2>
-                <article>
-                    <h3>Descripción de CSS</h3>
-                    <p> <strong> CSS </strong> (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.2​ Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. Junto con HTML y JavaScript, CSS es una tecnología usada por muchos sitios web para crear páginas visualmente atractivas, interfaces de usuario para aplicaciones web y GUIs para muchas aplicaciones móviles (como Firefox OS).3​</p>
-                    <p> <strong> CSS </strong> está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de este, características tales como las capas o layouts, los colores y las fuentes.4​ Esta separación busca mejorar la accesibilidad del documento, proveer más flexibilidad y control en la especificación de características presentacionales, permitir que varios documentos HTML compartan un mismo estilo usando una sola hoja de estilos separada en un archivo .css, y reducir la complejidad y la repetición de código en la estructura del documento.</p>
-                </article>
-                <article>
-                    <h3>Video Tutoriales</h3>
-                    <p>Párrafo 1</p>
-                    <p>Párrafo 2</p>
-                </article>
-                <!-- Pie de la sección -->
-                <footer></footer>
+                <h2>Nombre de la sección</h2>
             </section>
+            <article>
+                <h3 id="enfasis"> Énfasis "em"</h3>
+                <p> El elemento "em"
+                    Cuando queremos dar énfasis al lenguaje hablado, acentuamos ciertas palabras y así alteramos sutilmente el significado de lo que decimos. De manera similar, en el lenguaje escrito ponemos palabras en cursiva para destacarlas. Por ejemplo, las dos siguientes frases tienen diferente significado:
+                </p>
+                <p>
+                    Me alegro de que no llegues tarde.
+                </p>
+                <p>
+                    Me <em> alegro </em> de que no llegues <em> tarde. </em>
+                </p>
+                <p>    
+                    La primera frase suena aliviada porque la persona no llega tarde. Por el contrario, la segunda suena sarcástica y un tanto pasivo-agresiva, expresa molestia porque la persona ha llegado algo tarde.
+                </p>   
+                <p>
+                    En HTML usamos el elemento "em" («emphasis») para marcar estos casos. El documento logra entonces transmitir una lectura más interesante y además así lo reconocen los lectores de pantalla, que lo expresan con un diferente tono de voz
+                </p>
+            </article>
+            <article>
+                <h3 id="strong">Importancia del Strong</h3>
+                <p>
+                    El elemento "< strong >"
+                </p>
+                <p>
+                    Para enfatizar palabras importantes al hablar solemos acentuarlas, y al escribir lo hacemos en estilo negrita. Por ejemplo:
+                </p>
+                <p>
+                    Cuento contigo. <strong> ¡No llegues tarde! </strong>
+                </p>
+                <p>
+                    En HTML usamos el elemento "< strong >"" (importancia fuerte) para marcar tales expresiones. El documento resulta entonces más útil, y de nuevo los lectores de pantalla reconocen estos elementos y el tono de voz cambia a uno más fuerte.
+                </p>
+
+            </article>
+            <article>
+                    <h3 id="tercero">Tercer articulo</h3>
+            </article>
             <aside>
-                <h2>Menú lateral</h2>
+                <h2>Menu lateral</h2>
                 <nav>
+                    <h3>Menú navegación</h3>
                     <ul>
-                        <li><a href="#">Ir al artículo 1</a></li>
-                        <li><a href="#">Ir al artículo 2</a></li>
-                        <li><a href="#">Ir al artículo 3</a></li>
-                        <li><a href="#">Ir al artículo 4</a></li>
+                        <li>
+                            <a href="#enfasis">articulo 1</a>
+                        </li>
+                         <li>
+                            <a href="#strong">articulo 2</a>
+                        </li>
+                         <li>
+                            <a href="#tercero">articulo 3</a>
+                        </li>
                     </ul>
                 </nav>
             </aside>
         </main>
-        <!-- Pie de la página web -->
         <footer></footer>
     </body>
-</html>
+    </html>
