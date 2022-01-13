@@ -7,17 +7,27 @@
     <link rel="stylesheet" href="">
     <title>Primera práctica CSS</title>
     <style>
+        /* selector universal */
         * {
             margin: 0;
-            /*padding = relleno*/
+            /*padding es la propiedad del relleno*/
             padding: 0;
             background-color: antiquewhite;
+        }
+        /*esto anula y sustituye al anterior*/
+        h1, h2, h3, h4, h5, h6 {    
+        color: black
+        }
+        li, a, p {    
+        color: dimgray
         }
 
         header h1 {
             widows: 100%;
+            /* la propiedad height establece el alto */
             height: 50px;
             margin: 0px;
+            /* color de fondo*/
             background-color: black;
         }
 
@@ -26,6 +36,7 @@
         }
 
         nav {
+            /*esto es un borde*/
 
             border: 1px solid coral;
         }
