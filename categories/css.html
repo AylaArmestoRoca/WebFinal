@@ -47,11 +47,14 @@
         }
 
         nav {
-            /*esto es un borde*/
-
+            /*esto es un borde lisso en color coral*/
             border: 1px solid coral;
         }
 
+        article article p {
+            background-color: lime;
+        }
+        
         article,
         article p,
         article h2 {
@@ -61,12 +64,30 @@
         article {
             width: 40%;
             padding: 10px;
+            /* esto establece el margen de los articulos */
+            /* margin-top: 3% */
+            /* margin-right: 3% */
+            /* margin-botton: 3% */
+            /* margin-left: 3% */
+            /* margin total es lo de abajo "margin: 3%" */
+            /* primeros 3% se aplican "arriba y abajo" y los siguientes "izquierda y derecha" */
+            /* margin: 3% 3% (arriba y abajo) 3% 3% (izquierda y derecha) */
             margin: 3%;
+            /*esto establece el borde de los articulos */
             border: 1px solid: black;
 
         }
+        /* esto establece el ancho al 100% para todos los article herederos de otro article y herederos una section */
         section article article {
             width: 100%;
+        }
+        
+        /* este anula y sustituye al anterior */
+        section article {
+            width: 100%;
+            margin-left: 0%;
+            margin-right: 0%;
+            border: 1px;
         }
 
        footer {
@@ -128,7 +149,7 @@
         <section>
             <h2>Articulos anidados</h2>
             <article>
-                <h3> Lorem 3 </h3>
+                <h3> Anidado Lorem 1 </h3>
                 <p>
                     textoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat mi quis pretium semper. Proin luctus orci ac neque venenatis, quis commodo dolor posuere. Curabitur dignissim sapien quis cursus egestas. Donec blandit auctor arcu, nec pellentesque eros molestie eget. In consectetur aliquam hendrerit. Sed cursus mauris vitae ligula pellentesque, non pellentesque urna aliquet. Fusce placerat mauris enim, nec rutrum purus semper vel. Praesent tincidunt neque eu pellentesque pharetra. Fusce pellentesque est orci.
                 </p>
@@ -136,7 +157,7 @@
                     Aliquam velit massa, laoreet vel leo nec, volutpat facilisis eros. Donec consequat arcu ut diam tempor luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent vitae lacus vel leo sodales pharetra a a nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam luctus tempus nibh, fringilla dictum augue consectetur eget. Curabitur at ante sit amet tortor pharetra molestie eu nec ante. Mauris tincidunt, nibh eu sollicitudin molestie, dolor sapien congue tortor, a pulvinar sapien turpis sed ante. Donec nec est elementum, euismod nulla in, mollis nunc.
                 </p>
                 <article>
-                    <h4> Lorem 4</h4>
+                    <h4> anidado anidado lorem 2 </h4>
                     <p>
                         Aliquam velit massa, laoreet vel leo nec, volutpat facilisis eros. Donec consequat arcu ut diam tempor luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent vitae lacus vel leo sodales pharetra a a nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam luctus tempus nibh, fringilla dictum augue consectetur eget. Curabitur at ante sit amet tortor pharetra molestie eu nec ante. Mauris tincidunt, nibh eu sollicitudin molestie, dolor sapien congue tortor, a pulvinar sapien turpis sed ante. Donec nec est elementum, euismod nulla in, mollis nunc
                     </p>
