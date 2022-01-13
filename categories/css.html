@@ -15,12 +15,21 @@
             /* color fondo pagina entera */
             background-color: antiquewhite;
         }
+
         /*esto anula y sustituye al anterior*/
-        h1, h2, h3, h4, h5, h6 {    
-        color: black
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: black
         }
-        li, a, p {    
-        color: dimgray
+
+        li,
+        a,
+        p {
+            color: dimgray
         }
 
         header h1 {
@@ -43,8 +52,26 @@
             border: 1px solid coral;
         }
 
-        footer h2 {
+        article,
+        article p,
+        article h2 {
+            background-color: white
+        }
+
+        article {
+            width: 40%;
+            padding: 10px;
+            margin: 3%;
+            border: 1px solid: black;
+
+        }
+        section article article {
+            width: 100%;
+        }
+
+       footer {
             widows: 100%;
+            /*altura*/
             height: 80px;
             /* centrar linea texto con respecto al fondo*/
             line-height: 80px;
@@ -55,9 +82,9 @@
             /* color texto footer */
             color: white;
         }
-
     </style>
 </head>
+
 <body>
     <header>
         <h1>Estilos CSS</h1>
@@ -125,4 +152,5 @@
         <h2>Pie de página</h2>
     </footer>
 </body>
+
 </html>
