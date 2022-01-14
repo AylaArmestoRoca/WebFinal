@@ -125,7 +125,32 @@
         </ul>
     </nav>
     <main>
-        <secction></secction>
+        <secction>
+           <article>
+            <h2>Cómo incluir CSS en un documento XHTML</h2>
+               <p>Los estilos se definen en una zona específica del propio documento HTML. Se emplea la etiqueta <em>style</em> de HTML y solamente se pueden incluir en la cabecera del documento (sólo dentro de la sección <em>head</em>). </p>
+            </article>
+            <article>
+                <h3> Definir CSS en un archivo externo </h3>
+                <p> En este caso, todos los estilos CSS se incluyen en un archivo de tipo CSS que las páginas HTML enlazan mediante la etiqueta <link>. Un archivo de tipo CSS no es más que un archivo simple de texto cuya extensión es .css Se pueden crear todos los archivos CSS que sean necesarios y cada página HTML puede enlazar tantos archivos CSS como necesite. Si se quieren incluir los estilos del ejemplo anterior en un archivo CSS externo, se deben seguir los siguientes pasos:</p>
+                    <ol>
+                        <li>
+                            <ul>
+                               <li>Se crea un archivo de texto y se le añade solamente el siguiente contenido: </li>
+                                <li>
+                                    <em>p </em> { color: black; font-family: Verdana; }
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Se guarda el archivo de texto con el nombre estilos.css Se debe poner especial atención a que el archivo tenga extensión .css y no .txt
+                        </li>
+                        <li>
+                            En la página HTML se enlaza el archivo CSS externo mediante la etiqueta <em>link:</em>
+
+                        </li>
+                    </ol>
+            </article>
         <section>
             <article>
                 <h2> Lore 1</h2>
