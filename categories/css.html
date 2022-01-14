@@ -4,106 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Primera práctica CSS</title>
-    <style>
-        /* selector universal */
-        * {
-            margin: 0;
-            /*padding es la propiedad del relleno*/
-            padding: 0;
-            /* color fondo pagina entera */
-            background-color: antiquewhite;
-        }
-
-        /*esto anula y sustituye al anterior*/
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            color: black
-        }
-
-        li,
-        a,
-        p {
-            color: dimgray
-        }
-
-        header h1 {
-            widows: 100%;
-            /* la propiedad height establece el alto */
-            height: 50px;
-            /* margen */
-            margin: 0px;
-            /* color de fondo*/
-            background-color: black;
-        }
-
-        h1 {
-            color: antiquewhite
-        }
-
-        nav {
-            /*esto es un borde lisso en color coral*/
-            border: 1px solid coral;
-        }
-
-        article article p {
-            background-color: lime;
-        }
-        
-        article,
-        article p,
-        article h2 {
-            background-color: white
-        }
-
-        article {
-            width: 40%;
-            padding: 10px;
-            /* esto establece el margen de los articulos */
-            /* margin-top: 3% */
-            /* margin-right: 3% */
-            /* margin-botton: 3% */
-            /* margin-left: 3% */
-            /* margin total es lo de abajo "margin: 3%" */
-            /* primeros 3% se aplican "arriba y abajo" y los siguientes "izquierda y derecha" */
-            /* margin: 3% 3% (arriba y abajo) 3% 3% (izquierda y derecha) */
-            margin: 3%;
-            /*esto establece el borde de los articulos */
-            border: 1px solid: black;
-
-        }
-        /* esto establece el ancho al 100% para todos los article herederos de otro article y herederos una section */
-        section article article {
-            width: 100%;
-        }
-        
-        /* este anula y sustituye al anterior */
-        section article {
-            width: 100%;
-            margin-left: 0%;
-            margin-right: 0%;
-            border: 1px;
-        }
-
-       footer {
-            widows: 100%;
-            /*altura*/
-            height: 80px;
-            /* centrar linea texto con respecto al fondo*/
-            line-height: 80px;
-            /*padding = relleno*/
-            padding: 10px;
-            /* color fondo footer*/
-            background-color: black;
-            /* color texto footer */
-            color: white;
-        }
-    </style>
+    
 </head>
 
 <body>
@@ -132,25 +35,24 @@
             </article>
             <article>
                 <h3> Definir CSS en un archivo externo </h3>
-                <p> En este caso, todos los estilos CSS se incluyen en un archivo de tipo CSS que las páginas HTML enlazan mediante la etiqueta <link>. Un archivo de tipo CSS no es más que un archivo simple de texto cuya extensión es .css Se pueden crear todos los archivos CSS que sean necesarios y cada página HTML puede enlazar tantos archivos CSS como necesite. Si se quieren incluir los estilos del ejemplo anterior en un archivo CSS externo, se deben seguir los siguientes pasos:</p>
+                <p> En este caso, todos los estilos CSS se incluyen en un archivo de tipo CSS que las páginas HTML enlazan mediante la etiqueta <link>. Un archivo de tipo CSS no es más que un archivo simple de texto cuya extensión es <em>.css</em> Se pueden crear todos los archivos CSS que sean necesarios y cada página HTML puede enlazar tantos archivos CSS como necesite. Si se quieren incluir los estilos del ejemplo anterior en un archivo CSS externo, se deben seguir los siguientes pasos:</p>
                     <ol>
-                        <li>
+                        <li> Se crea un archivo de texto y se le añade solamente el siguiente contenido:
                             <ul>
-                               <li>Se crea un archivo de texto y se le añade solamente el siguiente contenido: </li>
                                 <li>
-                                    <em>p </em> { color: black; font-family: Verdana; }
+                                     <span class="verde">p</span> { color: black; font-family: Verdana; }
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            Se guarda el archivo de texto con el nombre estilos.css Se debe poner especial atención a que el archivo tenga extensión .css y no .txt
+                            Se guarda el archivo de texto con el nombre <em>estilos.css</em> Se debe poner especial atención a que el archivo tenga extensión <em>.css</em> y no <em>.txt</em>
                         </li>
                         <li>
                             En la página HTML se enlaza el archivo CSS externo mediante la etiqueta <em>link:</em>
-
                         </li>
                     </ol>
             </article>
+            
         <section>
             <article>
                 <h2> Lore 1</h2>
