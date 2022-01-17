@@ -74,12 +74,12 @@ body main section
 article ol li {color: blue}
 
 /*colores para una tabla*/
-table.azul th,
-table.azul td {
+table.blue th,
+table.blue td {
     border: 1px solid blue;
     color: blue
 }
-table.azul thead th {
+table.blue thead th {
     background-color: skyblue
     color: white;
 /*---------------------------*/
