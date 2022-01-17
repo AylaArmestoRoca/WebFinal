@@ -1,6 +1,7 @@
 <style>
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Glegoo&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&family=Montserrat:wght@200&family=Ultra&display=swap');
 
         /* selector universal */
         * {
@@ -24,13 +25,40 @@
                 serif;
         }
 
-
+/* ============ */
+/*formato texto */
+/*============= */
         li,
         a,
         p {
             color: dimgray
         }
-
+/* formato de textos */
+/*google fonts*/
+        p,
+        em,
+        strong,
+        li,
+        a {
+            font-family: 'Montserrat', sans-serif;
+            color: dimgray
+            font-size: 16px;        }
+    /*font variant*/
+        .todomayusculas{
+    font-variant: "small-caps"
+}
+        .pepe {
+    color: green
+}
+.alineadoderecha {
+    text-align: right
+}
+.alineadocentro {
+    text-align: center
+}
+.alineadojustificado {
+    text-align: justify
+}
         header h1 {
             widows: 100%;
             /* la propiedad height establece el alto */
