@@ -19,7 +19,7 @@
         h5,
         h6 {
             color: black
-                font-family: 'Glegoo',
+                font-family: 'Montserrat',
                 serif;
                 font-family: 'Ultra',
                 serif;
@@ -47,7 +47,7 @@
         .todomayusculas{
     font-variant: "small-caps"
 }
-        .pepe {
+.pepe {
     color: green
 }
 .alineadoderecha {
@@ -59,8 +59,33 @@
 .alineadojustificado {
     text-align: justify
 }
+
+/* __________________________________ */
+/*Prioridades */
+/* ---------------------------------- */
+
+#violeta {color: violet;}
+article ol li {color: blue}
+
+li {color: tomato;}
+.rosa {color: pink;}
+li.rosa {color: pink}
+body main section 
+article ol li {color: blue}
+
+/*colores para una tabla*/
+table.azul th,
+table.azul td {
+    border: 1px solid blue;
+    color: blue
+}
+table.azul thead th {
+    background-color: skyblue
+    color: white;
+/*---------------------------*/
+}
         header h1 {
-            widows: 100%;
+            widows: 100%;+
             /* la propiedad height establece el alto */
             height: 50px;
             /* margen */
