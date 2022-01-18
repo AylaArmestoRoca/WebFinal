@@ -1,49 +1,35 @@
-/* h2 {
-    color: darkcyan; 
-    }
-h3 {
-    color: coral 
+
+article.ej2 #titulo {
+    color: teal
 }
-table{
-    color: orangered;
-    border: 2px solid cadetblue;
-    
+article.ej2 #subtitulo {
+    color: blueviolet
 }
-tr, th, td {
-    color: darkorange;
-    background-color: papayawhip;
+article.ej2 p strong {
+    color: red
 }
-p {
-    color: green
+article.ej2 .destacado {
+    color: orange
 }
-a, span {
-    color: lightskyblue
+article.ej2 em {
+    color: blue
 }
- */
-
-<style type="text/css">
-/* No borrar la siguiente regla CSS porque es necesaria para ver los bordes de la tabla */
-table, tr, th, td {border:1px solid #000; border-collapse:collapse; padding:5px;}
-
-h1#titulo { color: teal; }
-
-strong { color: red; }
-span.destacado { color: orange; }
-
-h2#subtitulo { color: blue; }
-
-span.especial { color: purple; }
-
-a { color: red; }
-a em { color: blue; }
-
-div#adicional p { color: olive; }
-div#adicional span#especial { color: fuchsia; }
-div#adicional a { color: green; }
-
-caption { color: blue; }
-td { color: green; }
-td strong { color: orange; }
-th { color: red; }
-th.especial { color: orange; }
-</style>
+article.ej2 #subtitulo, article.ej2 p em, article.ej2 table caption {
+    color: deepskyblue
+}
+article.ej2 span.especial {
+    color: purple
+} 
+article.ej2 th, 
+article.ej2 td {
+    border 1px solid: black
+}
+article.ej2 td {
+    color: darkgreen
+}
+article.ej2 .especial {
+    color: orangered
+}
+article.j2 td strong {
+    color: darkorange
+}
